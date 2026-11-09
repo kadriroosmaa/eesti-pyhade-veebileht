@@ -1,0 +1,118 @@
+/* Üldine kujundus */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4EBD4;
+    color: #08043f;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Pealkirjad */
+h1 {
+    text-align: center;
+    color: #08043f;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0a0020;
+    border-bottom: 2px solid #08043f;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #08043f;
+}
+
+/* Tekstilõigud */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Pildid */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Navigeerimismenüü */
+nav {
+    background-color: #2f180b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #F4EBD4;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sõnavara plokk */
+.vocabulary {
+    background-color: #eef7ee;
+    border-left: 5px solid #2f180b;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Sisukastid */
+.section {
+    background-color: #f2efe7;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Jalus */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #100e5a;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Tabelid */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #100e5a;
+    color: white;
+}
+
+/* Mobiilivaade */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
