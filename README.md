@@ -44,6 +44,6 @@ Kui peaks juhtuma, et mõni rühmaliige pole järsku enam kättesaadav, siis:
 4. Võimalusel otsime inimese kooli peal üles
 5. Kirjutame õppejõule
 
-Rühma reeglitesse peame vajalikuks lisada järgneva punkti:
+Kõik eeltoodud kokkulepped on meie jaoks jätkuvalt olulised. Lisaks peame vajalikuks rühma reeglitesse lisada järgneva punkti:
 
 _Pärast kokkulepitud tähtaega on lubatud koodi peaharusse saata ainult juhul, kui hilinemine on eelnevalt ülejäänud rühmakaaslastega kooskõlastatud._
