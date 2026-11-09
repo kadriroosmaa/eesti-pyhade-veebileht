@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(212, 236, 245);
+    color: black;
+    font-family: Arial;
+    padding: 20px;
+}
+
+div {
+    padding: 1rem;
+}
+
+h1 {
+    background-color: rgb(51, 119, 245);
+    font-style: italic;
+    text-align: left;
+    padding: 1rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.sissejuhatus {
+    background-color: rgb(167, 234, 246);
+}
