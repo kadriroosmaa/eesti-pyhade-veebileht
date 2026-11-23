@@ -1,6 +1,6 @@
 body {
     background-color: rgb(2, 14, 72);
-    color: black;
+    color: rgb(2, 14, 72);
     font-family: Arial, sans-serif;
     padding: 20px;
 }
@@ -54,4 +54,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: none
+}
