@@ -58,3 +58,24 @@ footer {
     background-color: rgb(255, 255, 255);
     padding: none
 }
+
+sõnastiku formatting dl {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0;
+    width: 200px;
+}
+
+dt {
+    float: left;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-bottom: 1px;
+}
+
+dd {
+    padding: 5px 10px;
+    margin: 0;
+    border-bottom: 1px;
+    border-left: 1px;
+}
