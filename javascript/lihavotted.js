@@ -10,38 +10,53 @@ submitButton.addEventListener("click", () => {
         const valik5 = formData.get("5");
 
         if (valik1 === "12") {
-               document.getElementById("result12").innerHTML = "Vrai!"; 
+               document.getElementById("result12").innerHTML = "Vrai!";
+               document.getElementById("result12").style.color = "#1e8000"; 
         } else if (valik1 === "11") {
                 document.getElementById("result11").innerHTML = "Faux!";
+                document.getElementById("result11").style.color = "#ae0101";
         } else if (valik1 === "13") {
                 document.getElementById("result13").innerHTML = "Faux!";
+                document.getElementById("result13").style.color = "#ae0101";
         }
         if (valik2 === "23") {
-               document.getElementById("result23").innerHTML = "Vrai!"; 
+               document.getElementById("result23").innerHTML = "Vrai!";
+               document.getElementById("result23").style.color = "#1e8000";
         } else if (valik2 === "22") {
                 document.getElementById("result22").innerHTML = "Faux!";
+                document.getElementById("result22").style.color = "#ae0101";
         } else if (valik2 === "21") {
                 document.getElementById("result21").innerHTML = "Faux!";
+                document.getElementById("result21").style.color = "#ae0101";
         }
         if (valik3 === "32") {
-               document.getElementById("result32").innerHTML = "Vrai!"; 
+               document.getElementById("result32").innerHTML = "Vrai!";
+               document.getElementById("result32").style.color = "#1e8000"; 
         } else if (valik3 === "31") {
                 document.getElementById("result31").innerHTML = "Faux!";
+                document.getElementById("result31").style.color = "#ae0101";
         } else if (valik3 === "33") {
                 document.getElementById("result33").innerHTML = "Faux!";
+                document.getElementById("result33").style.color = "#ae0101";
         }
         if (valik4 === "41") {
-               document.getElementById("result41").innerHTML = "Vrai!"; 
+               document.getElementById("result41").innerHTML = "Vrai!";
+               document.getElementById("result41").style.color = "#1e8000";
         } else if (valik4 === "42") {
                 document.getElementById("result42").innerHTML = "Faux!";
+                document.getElementById("result42").style.color = "#ae0101";
         } else if (valik4 === "43") {
                 document.getElementById("result43").innerHTML = "Faux!";
+                document.getElementById("result43").style.color = "#ae0101";
         }
         if (valik5 === "53") {
-               document.getElementById("result53").innerHTML = "Vrai!"; 
+               document.getElementById("result53").innerHTML = "Vrai!";
+               document.getElementById("result53").style.color = "#1e8000";
         } else if (valik5 === "52") {
                 document.getElementById("result52").innerHTML = "Faux!";
+                document.getElementById("result52").style.color = "#ae0101";
         } else if (valik5 === "51") {
                 document.getElementById("result51").innerHTML = "Faux!";
+                document.getElementById("result51").style.color = "#ae0101";
         }
         });
