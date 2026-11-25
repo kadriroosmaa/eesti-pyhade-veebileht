@@ -6,7 +6,7 @@
 }
 
 audio {
-    width: 100%;
+    width: max(100%, 10rem);
     margin-bottom: 0.9375rem;
     border-radius: 0.625rem;
 }
@@ -15,6 +15,7 @@ audio {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
+    width: max(100%, 10rem);
     background-color: rgba(235, 221, 176, 0.3);
     border: 0.0625rem solid rgba(2, 14, 72, 0.5);
 }
@@ -24,6 +25,7 @@ audio {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
+    width: max(100%, 10rem)
 }
 
 .sonavara {
@@ -32,13 +34,14 @@ audio {
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
     color: rgb(2, 14, 72);
+    width: max(100%, 10rem)
 }
 
 dl {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 0;
-    width: 100%;
+    width: max(100%, 10rem);
 }
 
 dt {
@@ -56,29 +59,15 @@ dd {
 }
 
 .videod {
-    max-width: 100%;
+    max-width: max(100%, 10rem);
     height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
 }
 
 .fotod {
-    max-width: 100%;
+    max-width: max(100%, 10rem);
     height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
-}
-
-.lunkharjutus {
-    background-color: rgb(250, 250, 248);
-    padding: 1rem;
-    border-radius: 0.625rem;
-    margin-bottom: 1.25rem;
-}
-
-.muu-harjutus {
-    background-color: rgb(250, 250, 248);
-    padding: 1rem;
-    border-radius: 0.625rem;
-    margin-bottom: 1.25rem;
 }

@@ -26,6 +26,7 @@ p {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
+    width: max(100%, 10rem);
 }
 
 .oppeobjekt {
@@ -33,5 +34,6 @@ p {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
+    width: max(100%, 10rem);
 }
 
