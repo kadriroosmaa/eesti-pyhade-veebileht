@@ -1,5 +1,14 @@
+/* 
+Selle koodi kirjutas Maria Alas.
+Kasutasin teadmisi, mille sain eelmise JavaScript faili (joulud-ja-uusaasta) kirjutamisel.
+HTML "radio"-nuppude süntaksit õppisin MDN lehelt (https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio)
+Teksti värvi muutmise õppisin W3Schools-ist (https://www.w3schools.com/jsref/prop_style_color.asp)
+*/
+
 const form = document.getElementById("lihavotted");
 const submitButton = document.getElementById("submit");
+
+// Kui vajutatakse "Submit" nuppu, siis kasutaja valitud vastused edastatakse form'i abil siia ning neile saab "name" abil ligi.
 
 submitButton.addEventListener("click", () => {
         const formData = new FormData(form);
@@ -8,6 +17,10 @@ submitButton.addEventListener("click", () => {
         const valik3 = formData.get("3");
         const valik4 = formData.get("4");
         const valik5 = formData.get("5");
+
+        /* Kui valiti õige vastusevariant, siis kuvatakse valitud variandi kõrvale roheline tekst tähendusega "Õige!".
+        Kui valiti vale variant, siis kuvatakse valitud variandi kõrvale punane tekst tähendusega "Vale!".
+        */
 
         if (valik1 === "12") {
                document.getElementById("result12").innerHTML = "Vrai!";
