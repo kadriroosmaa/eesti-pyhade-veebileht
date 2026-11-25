@@ -1,21 +1,20 @@
 body {
     background-color: rgb(2, 14, 72);
-    color: rgb(2, 14, 72);
     font-family: Arial;
-    padding: 25px;
+    padding: 1.5rem;
 }
 
 div {
     padding: 1rem;
 }
 
-h1 {
+h1 {color: rgb(2, 14, 72);
     background-color: rgb(250, 250, 248);
     font-style: italic;
     text-align: left;
     padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 0.625rem;
+    margin-bottom: 1.25rem;
 }
 
 p {
@@ -25,15 +24,14 @@ p {
 .sissejuhatus {
     background-color: rgb(250, 250, 248);
     padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 20px;
-
+    border-radius: 0.625rem;
+    margin-bottom: 1.25rem;
 }
+
 .oppeobjekt {
-    background-color:rgb(250, 250, 248) ;
+    background-color: rgb(250, 250, 248);
     padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 0.625rem;
+    margin-bottom: 1.25rem;
 }
-
 
