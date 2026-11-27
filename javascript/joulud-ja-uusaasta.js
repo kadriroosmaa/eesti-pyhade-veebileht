@@ -7,7 +7,6 @@ Kasutasin õppimiseks eelkõige W3Schools platvormi:
         (https://www.tutorialspoint.com/article/javascript-create-submit-button-for-form-submission-and-another-button-to-clear-input)
 */
 
-
 const form = document.getElementById("joulud_uusaasta");
 const submitButton = document.getElementById("submit");
 const clearButton = document.getElementById("clear");
