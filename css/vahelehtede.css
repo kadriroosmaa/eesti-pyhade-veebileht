@@ -6,23 +6,29 @@
 }
 
 audio {
-    width: max(100%, 10rem);
+    width: max(60%, 10rem);
     margin-bottom: 0.9375rem;
     border-radius: 0.625rem;
 }
 
-.juhis {width: max(100%, 10rem);
+.juhis {
+    width: max(60%, 10rem);
     margin-bottom: 0.9375rem;
     border-radius: 0.625rem;
+    font-style: bold;
 } 
 
 .kuulamisylesanne {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
-    width: max(100%, 10rem);
+    width: max(90%, 10rem);
     background-color: rgba(235, 221, 176, 0.3);
     border: 0.0625rem solid rgba(2, 14, 72, 0.5);
+}
+
+.kuulamisylesanne p {
+    font-style: bold;
 }
 
 .lugemistekst {
