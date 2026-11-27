@@ -3,13 +3,14 @@ Selle koodi kirjutas Maria Alas.
 Kasutasin õppimiseks eelkõige W3Schools platvormi: 
         (https://www.w3schools.com/js/js_if_else.asp)
         (https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp)
-"Form"'i ja "Submit"-nupu süntaksi võtsin nii JavaScripti kui HTML-i jaoks TutorialsPoint platvormilt AmitDiwani kirjutatud artiklist:
+"Form"'i ja "Submit"/"Clear" -nuppude süntaksi võtsin nii JavaScripti kui HTML-i jaoks TutorialsPoint platvormilt AmitDiwani kirjutatud artiklist:
         (https://www.tutorialspoint.com/article/javascript-create-submit-button-for-form-submission-and-another-button-to-clear-input)
 */
 
 
 const form = document.getElementById("joulud_uusaasta");
 const submitButton = document.getElementById("submit");
+const clearButton = document.getElementById("clear");
 
 // Kui vajutatakse "Submit" nuppu, siis kasutaja valitud vastused edastatakse form'i abil siia ning neile saab "name" abil ligi.
 
@@ -78,4 +79,18 @@ submitButton.addEventListener("click", () => {
             } else {
                 document.getElementById("10").style.backgroundColor = "#ffcbcb";
         }
+        });
+
+clearButton.addEventListener("click", () => {
+        form.reset();
+        document.getElementById("1").style.backgroundColor = "#ffffff";
+        document.getElementById("2").style.backgroundColor = "#ffffff";
+        document.getElementById("3").style.backgroundColor = "#ffffff";
+        document.getElementById("4").style.backgroundColor = "#ffffff";
+        document.getElementById("5").style.backgroundColor = "#ffffff";
+        document.getElementById("6").style.backgroundColor = "#ffffff";
+        document.getElementById("7").style.backgroundColor = "#ffffff";
+        document.getElementById("8").style.backgroundColor = "#ffffff";
+        document.getElementById("9").style.backgroundColor = "#ffffff";
+        document.getElementById("10").style.backgroundColor = "#ffffff";
         });
