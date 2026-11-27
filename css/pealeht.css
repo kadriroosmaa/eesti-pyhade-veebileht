@@ -14,7 +14,7 @@ h1 {color: rgb(2, 14, 72);
 }
 
 p {
-    text-align: justify;
+    text-align: left;
     color: rgb(2, 14, 72);
 }
 
@@ -28,5 +28,6 @@ div {
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
     width: max(97%, 10rem);
+    align-self: left;
 }
 
