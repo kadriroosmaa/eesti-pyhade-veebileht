@@ -31,22 +31,35 @@ h3 {
 }
 
 
-.navigatsioon{
-    list-style-type: none;
-    overflow: hidden;
+.navigatsioon {
+    color: rgb(2, 14, 72);
     background-color: rgb(250, 250, 248);
+    padding: 0;
+    margin: 0;
+    width: max(100%, 10rem);
+    align-items: center;
+    display: flex;
+}
+
+.navigatsioon lingid {
+    list-style: none;
+    display: flex;
+    gap: 1.5625rem;
     padding: 0;
     margin: 0;
 }
 
-.navigatsioon a {
-    color: rgb(2, 14, 72);
-    display: block;
-    text-align: center;
-    padding: 1.25rem 1.25rem;
+.navigatsioon lingid a {
+     color: rgb(2, 14, 72);
     text-decoration: none;
 }
 
-.navigatsioon a:hover {
-    background-color: rgb(250, 250, 248);
+.navigatsioon lingid a:hover {
+    color: rgb(45, 114, 212);
+    text-decoration: underline;
 }
+
+
+
+
+
