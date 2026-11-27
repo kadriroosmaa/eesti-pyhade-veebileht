@@ -11,6 +11,11 @@ audio {
     border-radius: 0.625rem;
 }
 
+.juhis {width: max(100%, 10rem);
+    margin-bottom: 0.9375rem;
+    border-radius: 0.625rem;
+} 
+
 .kuulamisylesanne {
     padding: 1rem;
     border-radius: 0.625rem;
