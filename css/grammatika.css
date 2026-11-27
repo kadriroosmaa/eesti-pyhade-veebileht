@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(165, 200, 239);
+    background-color: rgb(2, 14, 72);
     font-family: Arial, sans-serif;
     padding: 1.25rem;
 }
@@ -8,6 +8,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     background-color: rgb(250, 250, 248);
+    border-color: (250, 250, 248);
+    border: 0
 }
 
 th,
@@ -26,5 +28,8 @@ th.ilmaB {
     font-weight: normal;
 }
 
-
-#tabelitele vahe
+.yhine-rida {
+    text-align: left;
+    padding-left: 0.5rem;
+    background-color: rgb(252, 240, 232);
+}
