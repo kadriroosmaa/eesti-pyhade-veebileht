@@ -1,34 +1,35 @@
 .dialoog {
     background-color: rgb(250, 250, 248);
     padding: 1rem;
+    padding-top: 1.2rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
+    width: max(97%);
 }
 
 audio {
-    width: max(60%, 10rem);
+    width: max(90%, 10rem);
     margin-bottom: 0.9375rem;
     border-radius: 0.625rem;
 }
 
 .juhis {
-    width: max(60%, 10rem);
     margin-bottom: 0.9375rem;
     border-radius: 0.625rem;
-    font-style: bold;
+    font-weight: bold;
+    width: max(97%);
 } 
 
 .kuulamisylesanne {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
-    width: max(90%, 10rem);
-    background-color: rgba(235, 221, 176, 0.3);
+    background-color: rgba(235, 221, 176, 0.25);
     border: 0.0625rem solid rgba(2, 14, 72, 0.5);
 }
 
 .kuulamisylesanne p {
-    font-style: bold;
+    font-weight: bold;
 }
 
 .lugemistekst {
@@ -36,7 +37,7 @@ audio {
     padding: 1rem;
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
-    width: max(100%, 10rem)
+    width: max(97%);
 }
 
 .sonavara {
@@ -45,14 +46,13 @@ audio {
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
     color: rgb(2, 14, 72);
-    width: max(100%, 10rem)
+    width: max(97%);
 }
 
 dl {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 0;
-    width: max(100%, 10rem);
 }
 
 dt {
@@ -68,6 +68,29 @@ dd {
     border-bottom: 0.0625rem;
     border-left: 0.0625rem;
 }
+
+.lunkharjutus {
+    background-color: rgb(250, 250, 248);
+    padding: 1rem;
+    border-radius: 0.625rem;
+    margin-bottom: 1.25rem;
+    color: rgb(2, 14, 72);
+    width: max(97%);
+}
+
+.valikvastus {
+    background-color: rgb(250, 250, 248);
+    padding: 1rem;
+    border-radius: 0.625rem;
+    margin-bottom: 1.25rem;
+    color: rgb(2, 14, 72);
+    width: max(97%);
+}
+
+.valikvastus p {
+font-weight: bold;
+}
+
 
 .videod {
     max-width: max(100%, 10rem);

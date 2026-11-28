@@ -1,7 +1,10 @@
 body {
     background-color: rgb(2, 14, 72);
-    font-family: Arial; 
-    padding: 1.5rem;
+    font-family: Arial;
+    padding: 1rem;
+    padding-top: 1rem;
+    position: sticky;
+    align-self: flex-start;
 }
 
 h1 {color: rgb(2, 14, 72);
@@ -28,6 +31,6 @@ div {
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
     width: max(97%, 10rem);
-    align-self: left;
+    align-self: flex-start;
 }
 
