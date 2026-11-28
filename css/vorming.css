@@ -1,7 +1,7 @@
 body {
     background-color: rgb(2, 14, 72);
     font-family: Arial, sans-serif;
-    padding: 1rem;
+    padding: 2rem;
     padding-top: 1rem;
     position: sticky;
     align-self: flex-start;
@@ -93,3 +93,7 @@ main {
 margin-left: 15.5rem;
 }
 
+.aktiivne {
+    color: rgb(22, 70, 212);
+    text-decoration: underline; 
+}
