@@ -7,6 +7,7 @@ Teksti värvi muutmise õppisin W3Schools-ist (https://www.w3schools.com/jsref/p
 
 const form = document.getElementById("lihavotted");
 const submitButton = document.getElementById("submit");
+const clearButton = document.getElementById("clear")
 
 // Kui vajutatakse "Submit" nuppu, siis kasutaja valitud vastused edastatakse form'i abil siia ning neile saab "name" abil ligi.
 
@@ -72,4 +73,23 @@ submitButton.addEventListener("click", () => {
                 document.getElementById("result51").innerHTML = "Faux!";
                 document.getElementById("result51").style.color = "#ae0101";
         }
+        });
+
+clearButton.addEventListener("click", () => {
+        form.reset();
+        document.getElementById("result11").innerHTML = ""
+        document.getElementById("result12").innerHTML = ""
+        document.getElementById("result13").innerHTML = ""
+        document.getElementById("result21").innerHTML = ""
+        document.getElementById("result22").innerHTML = ""
+        document.getElementById("result23").innerHTML = ""
+        document.getElementById("result31").innerHTML = ""
+        document.getElementById("result32").innerHTML = ""
+        document.getElementById("result33").innerHTML = ""
+        document.getElementById("result41").innerHTML = ""
+        document.getElementById("result42").innerHTML = ""
+        document.getElementById("result43").innerHTML = ""
+        document.getElementById("result51").innerHTML = ""
+        document.getElementById("result52").innerHTML = ""
+        document.getElementById("result53").innerHTML = ""
         });
