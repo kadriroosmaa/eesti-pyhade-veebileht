@@ -1,14 +1,16 @@
 body {
     background-color: rgb(2, 14, 72);
     font-family: Arial,sans-serif;
-    padding: 2rem;
+    padding: 1.5rem;
     padding-top: 1rem;
+    width: max(96.2%);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     background-color: rgb(250, 250, 248);
+    flex-shrink: 0;
 }
 
 th,

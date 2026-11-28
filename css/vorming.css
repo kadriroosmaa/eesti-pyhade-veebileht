@@ -16,6 +16,9 @@ h1 {
     color: rgb(2, 14, 72);
     border-radius: 0.625rem;
     margin-bottom: 1.25rem;
+    width: max(96.2%);
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 p {
@@ -71,6 +74,7 @@ nav {
     flex-direction: column;
     font-family: Arial, sans-serif;
     font-weight: bold;
+    
 }
 
  nav a {
@@ -86,11 +90,12 @@ nav {
 
 nav a:hover {
     color: rgb(45, 114, 212);
-    text-decoration: underline;
 }
 
 main {
-margin-left: 15.5rem;
+margin-left: 15.2rem;
+flex-grow: 1;
+flex-shrink: 0;
 }
 
 .aktiivne {
